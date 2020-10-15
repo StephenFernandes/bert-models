@@ -1,6 +1,10 @@
 
 
-# Endsem Project : An Efficient Approach in Brain Tumor Detection using Deep Learning Technique
+# Endsem Project : An Efficient Approach in Brain Tumor Detection using Deep Learning Techniques 
+
+### Lycia Thomas : UR16CS151
+### Aishwarya Naina : UR16CS178
+
 ## Introduction :
  This Project is based upon detecting brain tumors in the human brians on the MRI scanned T2 images, these scans are trainined on a VGG16 Convolutional Neural Network model using transfer learning techniques, further Mask R-CNN is used to segment the tumorous regions in the MRI scan. 
 
@@ -35,8 +39,6 @@ pip install tqdm
  4. Navigate to the `src/` directory where the source python files are located : 
 ```bash
 cd src/
-
-cmake ./
 ```
 
 5. Here the `CNN-VGG16.ipnb` Notebook file is used to train the model to launch jupyter notebook in this directory:
