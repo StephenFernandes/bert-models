@@ -50,7 +50,8 @@ def run():
         num_workers=1
     )
 
-    device = torch.device("cuda")
+    device = if torch.cuda_is_available(): return torch.device('cuda') else torch.device('cpu')
+
     model = BERTBaseUncased()
     model.to(device)
     
