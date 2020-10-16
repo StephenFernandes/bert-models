@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from tqdm import tqdm
-
+from torch.optim import opt 
 
 def loss_fn(outputs, targets):
     return nn.BCEWithLogitsLoss()(outputs, targets.view(-1, 1))
