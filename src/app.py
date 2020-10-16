@@ -6,6 +6,7 @@ from flask import request
 from model import BERTBaseUncased
 
 import torch.nn as nn
+import torch.optim as opt 
 
 app = Flask(__name__)
 
