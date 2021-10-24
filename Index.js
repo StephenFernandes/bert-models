@@ -11,5 +11,4 @@ ReactDOM.render(
 );
 
 
-//React Component For Template 
-
+//I Am A bakko 
