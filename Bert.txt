@@ -1,0 +1,6 @@
+Bert Models:
+BERT, which stands for Bidirectional Encoder Representations from Transformers, is based on Transformers, a deep learning model in which every output element is connected to every input element, and the weightings between them are dynamically calculated based upon their connection.
+
+
+
+Google AI's BERT paper shows the amazing result on various NLP task (new 17 NLP tasks SOTA), including outperform the human F1 score on SQuAD v1.1 QA task. This paper proved that Transformer(self-attention) based encoder can be powerfully used as alternative of previous language model with proper language model training method. And more importantly, they showed us that this pre-trained language model can be transfer into any NLP task without making task specific model architecture.
